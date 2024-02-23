@@ -1,0 +1,6 @@
+LOAD DATA
+INFILE 'C:\DBMS CSVs\Arsenal.csv'
+INSERT INTO TABLE Arsenal
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+TRAILING NULLCOLS
+(name,player_number,DOB,Position,Nationality,Team)

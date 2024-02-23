@@ -1,0 +1,6 @@
+LOAD DATA
+INFILE 'C:\DBMS CSVs\Chelsea.csv'
+INSERT INTO TABLE Chelsea
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+TRAILING NULLCOLS
+(name,player_number,DOB,Position,Nationality,Team)

@@ -1,0 +1,6 @@
+LOAD DATA
+INFILE 'C:\DBMS CSVs\Watford.csv'
+INSERT INTO TABLE Watford
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+TRAILING NULLCOLS
+(name,player_number,DOB,Position,Nationality)
